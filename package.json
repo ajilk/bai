@@ -1,0 +1,27 @@
+{
+  "name": "btrs",
+  "version": "1.0.0",
+  "description": "BTRS parser",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajilk/btrs.git"
+  },
+  "keywords": [
+    "parser",
+    "btrs"
+  ],
+  "author": "Azimjon Ilkhomov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajilk/btrs/issues"
+  },
+  "homepage": "https://github.com/ajilk/btrs#readme",
+  "dependencies": {
+    "antlr4": "^4.8.0"
+  }
+}
