@@ -1,6 +1,6 @@
 grammar btrs;
 
-btrsfile: r01 bank* r99;
+btrsFile: r01 bank* r99;
 
 bank: r02 account* r98;
 account: r03 r88* transaction* r49;

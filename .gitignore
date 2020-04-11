@@ -1,6 +1,7 @@
 .antlr
 node_modules
-src/parser
+src/lib
+dist/
 
 # generated java files
 *.tokens

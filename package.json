@@ -2,9 +2,10 @@
   "name": "btrs",
   "version": "1.0.0",
   "description": "BTRS parser",
-  "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js",
+    "build": "antlr4ts -o ./src/lib -visitor ./btrs.g4",
+    "start": "tsc && node ./dist/main.js",
+    "clean": "rm -rf ./dist src/lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/ajilk/btrs#readme",
   "dependencies": {
-    "antlr4": "^4.8.0"
+    "@types/antlr4": "^4.7.0",
+    "antlr4ts": "^0.5.0-alpha.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "antlr4ts-cli": "^0.5.0-alpha.3"
   }
 }
