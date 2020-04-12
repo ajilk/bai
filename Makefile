@@ -8,3 +8,9 @@ g:
 	grun btrs btrsFile -gui ./data/01.bai
 clean:
 	rm -rf *.{class,java,interp,tokens}
+
+# NPM 
+b:
+	npm build
+s: 
+	npm start

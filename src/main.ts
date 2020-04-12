@@ -10,9 +10,7 @@ import { ParseTreeWalker, ParseTreeListener } from 'antlr4ts/tree';
 
 
 class MyListener implements btrsListener {
-  enterFileHeader(context: FileHeaderContext) {
-    console.log(context.toStringTree());
-  }
+  enterFileHeader(context: FileHeaderContext) { }
 
   visitTerminal() { }
   visitErrorNode() { }
